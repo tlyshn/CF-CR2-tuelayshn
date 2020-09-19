@@ -1,0 +1,164 @@
+$color-general: #5c191b;
+$color-yellow: #efe97a;
+$color-black: #333333;
+$color-gray: #BAB7C3;
+
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $color-general;
+    height: 150px;
+    justify-content: center;
+}
+
+.col1 {
+    width: 500px;
+    //* border: 1px solid black;
+    height: 80px;
+    padding-top: 40px;
+    //* margin: 0px auto; box zentrieren 
+}
+
+#logo-newspaper-cf,
+    {
+    width: 300px;
+    margin-left: 100px;
+}
+
+#banner-1 {
+    width: 500px;
+    margin-right: 3%;
+}
+
+nav {
+    background-color: #333333;
+    height: 80px;
+    width: 100%;
+}
+
+
+nav ul {
+    float: left;
+    margin-left: 3%;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1 {
+    height: 60px;
+    background-color: $color-gray;
+    padding: 10px 0px 0px 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    clear: both;
+}
+
+#date {
+    text-align: right;
+}
+
+#container2 {
+    background-color: black;
+
+}
+
+span {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+
+}
+
+span p {
+    display: block;
+    background-color: $color-black;
+    margin-top: 230px;
+    height: 70px;
+    padding: 7px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+
+}
+
+
+footer {
+    clear: both;
+}
+
+
+footer span {}
+
+
+.bild1 {
+    background-image: url("./img/jeff.png");
+    background-size: cover;
+}
+
+.bild2 {
+    background-image: url("./img/eu.png");
+    background-size: cover;
+}
+
+.bild3 {
+    background-image: url("./img/phone.png");
+    background-size: cover;
+}
+
+.bild4 {
+    background-image: url("./img/iphone.png");
+    background-size: cover;
+}
+
+
+.bild5 {
+    background-image: url("./img/one.png");
+    background-size: cover;
+}
+
+.bild6 {
+    background-image: url("./img/musk.jpg");
+    background-size: cover;
+}
+
+.bild7 {
+    background-image: url("./img/smart.png");
+    background-size: cover;
+}
+
+.bild8 {
+    background-image: url("./img/polar.png");
+    background-size: cover;
+}
+
+#banner3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clear: both;
+
+}
